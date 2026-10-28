@@ -1,0 +1,14 @@
+{
+  "name": "gentoo",
+  "description": "Official Gentoo Growth Agent plugin for Shopify merchants",
+  "owner": {
+    "name": "Waddle"
+  },
+  "plugins": [
+    {
+      "name": "gentoo",
+      "source": "./plugins/gentoo",
+      "description": "Connect your Shopify store to inspect and manage Gentoo Growth Agent Goals, Opportunities, Actions, Tools, Performance, and Credits."
+    }
+  ]
+}

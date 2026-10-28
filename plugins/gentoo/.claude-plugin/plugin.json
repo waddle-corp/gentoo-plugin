@@ -1,0 +1,10 @@
+{
+  "name": "gentoo",
+  "version": "0.1.0",
+  "description": "Gentoo Growth Agent: inspect and manage your Shopify store using your Gentoo connection key.",
+  "author": {
+    "name": "Waddle"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

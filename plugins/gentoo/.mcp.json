@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "gentoo": {
+      "type": "http",
+      "url": "https://mcp.gentooai.com/mcp"
+    }
+  }
+}

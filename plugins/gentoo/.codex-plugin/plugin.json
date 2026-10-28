@@ -1,0 +1,24 @@
+{
+  "name": "gentoo",
+  "version": "0.1.0",
+  "description": "Connect your Shopify store to inspect and manage Gentoo Growth Agent Goals, Opportunities, Actions, Tools, Performance, and Credits.",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Gentoo",
+    "shortDescription": "Growth Agent for your Shopify store",
+    "longDescription": "Connect your Shopify store using a connection key from Gentoo Settings to inspect and manage Goals, Opportunities, Action previews, Tools, Performance, and Credits.",
+    "developerName": "Waddle",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Show my store current Goal and active Opportunities.",
+      "Summarize my store campaign performance and credit usage."
+    ],
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/logo.png"
+  }
+}
