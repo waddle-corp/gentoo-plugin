@@ -42,8 +42,8 @@ Then run `/mcp` in Claude Code, select `gentoo`, paste your `gt_pat_...` connect
 
 Claude chat cannot install plugins, so add Gentoo as a custom connector:
 
-1. In Claude, go to **Customize > Connectors** (https://claude.ai/customize/connectors), click **+**, and choose **Add custom connector**.
-2. Paste `https://mcp.gentooai.com/mcp` as the URL and add it.
+1. Open [Add Gentoo to Claude](https://claude.ai/customize/connectors?modal=add-custom-connector&connectorName=Gentoo&connectorUrl=https%3A%2F%2Fmcp.gentooai.com%2Fmcp). Claude opens the **Add custom connector** dialog with Gentoo filled in.
+2. Click **Add**. If the link does not open the dialog, go to **Customize > Connectors**, click **+**, choose **Add custom connector**, and paste `https://mcp.gentooai.com/mcp`.
 3. Click **Connect** on the new Gentoo connector.
 4. In the browser window, paste your `gt_pat_...` connection key from **Shopify Admin > Gentoo > Settings > Connectors** and click **Allow access**.
 
