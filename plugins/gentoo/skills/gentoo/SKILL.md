@@ -5,7 +5,7 @@ description: Manage a Shopify store's Gentoo Growth Agent Goal, Opportunities, A
 
 # Gentoo Merchant Skill
 
-Use this skill when the user wants to inspect or manage their Shopify store's Gentoo Growth Agent, including Store Goals, Opportunities, Action previews and approvals, Merchant Tools, Performance campaigns, Credit usage, Gentoo conversations, or Shop deploy settings.
+Use this skill when the user wants to inspect or manage their Shopify store's Gentoo Growth Agent, including Store Goals, Opportunities, Action previews and approvals, current SEO requests, Goal performance (Overall and Week by week), Credit usage, Gentoo conversations, or Shop deploy settings.
 
 ## Authentication and Setup
 
@@ -23,7 +23,5 @@ The user connects their store through the remote MCP OAuth flow (`https://mcp.ge
    - Step 3: Only after explicit user confirmation, call `gentoo_action_approve` with `actionId` and `expectedReviewFingerprint`.
 2. **Preserve BIGINT Identifiers as Strings**:
    - Always treat `blockerId`, `actionId`, `runId`, `jobId`, and `proposalId` as decimal strings. Never coerce them to floating-point numbers.
-3. **Non-Blocking Long Runs**:
-   - `gentoo_tool_run` and `gentoo_action_bulk_approve` enqueue background work and return `runId` or `jobId` immediately. Poll progress with `gentoo_tool_status` or `gentoo_action_bulk_approval_status`.
-4. **Confirmation Before Credit-Consuming or Storefront Writes**:
-   - Always obtain explicit user confirmation in the current task before calling write tools (`gentoo_action_approve`, `gentoo_action_rollback`, `gentoo_action_pause`, `gentoo_action_restore`, `gentoo_action_bulk_approve`, `gentoo_goal_propose`, `gentoo_goal_select`, `gentoo_tool_run`, or shop auto-approve updates).
+3. **Confirmation Before Credit-Consuming or Storefront Writes**:
+   - Always obtain explicit user confirmation in the current task before calling write tools (`gentoo_action_approve`, `gentoo_action_rollback`, `gentoo_action_pause`, `gentoo_action_restore`, `gentoo_goal_propose`, `gentoo_goal_select`, or shop deploy-mode updates).
