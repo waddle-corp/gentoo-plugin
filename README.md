@@ -1,6 +1,6 @@
 # Gentoo Plugin for Codex and Claude
 
-Official **Gentoo** plugin (`https://mcp.gentooai.com/mcp`) for Shopify merchants to inspect and manage Store Goals, Opportunities, Action previews and approvals, Merchant Tools, Performance campaigns, Credit usage, and Sidekick in **ChatGPT(Codex)** and **Claude**.
+Official **Gentoo** plugin (`https://mcp.gentooai.com/mcp`) for Shopify merchants to inspect and manage Store Goals, Opportunities, Action previews and approvals, Merchant Tools, Performance campaigns, Credit usage, and Gentoo conversations in **ChatGPT(Codex)** and **Claude**.
 
 ## Agent Installation Instructions (for Codex and Claude)
 
