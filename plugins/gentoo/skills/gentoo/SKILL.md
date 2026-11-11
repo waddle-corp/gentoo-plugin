@@ -1,11 +1,11 @@
 ---
 name: gentoo
-description: Manage a Shopify store's Gentoo Growth Agent Goal, Opportunities, Actions, Tools, Performance, Credits, Sidekick, and Shop settings using the Gentoo remote MCP tools.
+description: Manage a Shopify store's Gentoo Growth Agent Goal, Opportunities, Actions, Tools, Performance, Credits, Conversations, and Shop settings using the Gentoo remote MCP tools.
 ---
 
 # Gentoo Merchant Skill
 
-Use this skill when the user wants to inspect or manage their Shopify store's Gentoo Growth Agent, including Store Goals, Opportunities, Action previews and approvals, Merchant Tools, Performance campaigns, Credit usage, Sidekick conversations, or Shop deploy settings.
+Use this skill when the user wants to inspect or manage their Shopify store's Gentoo Growth Agent, including Store Goals, Opportunities, Action previews and approvals, Merchant Tools, Performance campaigns, Credit usage, Gentoo conversations, or Shop deploy settings.
 
 ## Authentication and Setup
 
