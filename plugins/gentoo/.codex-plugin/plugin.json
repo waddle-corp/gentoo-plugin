@@ -16,7 +16,7 @@
     ],
     "defaultPrompt": [
       "Show my store current Goal and active Opportunities.",
-      "Summarize my store campaign performance and credit usage."
+      "How is my Goal going, and how many credits have I used?"
     ],
     "logo": "./assets/logo.png",
     "composerIcon": "./assets/logo.png"
